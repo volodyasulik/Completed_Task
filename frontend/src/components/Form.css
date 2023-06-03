@@ -1,0 +1,50 @@
+.form {
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  background-color: #3383dd;
+  border-radius: 10px;
+  box-shadow: 0px 2px 12px #3383dd;
+  padding-bottom: 10px;
+}
+.selects-block {
+  width: 50%;
+}
+.selected-block {
+  margin: 10px 0;
+}
+.selected-block label {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.selected-block .select {
+  margin: 4px -5px 10px 4px;
+}
+
+.form button {
+  all: unset;
+  height: 60px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #3fab53;
+  box-shadow: 0px 2px 5px #3fab53;
+  border-color: white;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.form button:active {
+  opacity: 0.8;
+}
+
+.date-block {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  justify-content: flex-end;
+}
